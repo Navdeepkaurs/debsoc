@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* section 1 */
+.s1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./backgroundimg.png');
+    background-size: cover;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    background-image: url('./img.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 26%;
+    text-align: center;
+    color: #fff;
+    left: 37%;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* section 2*/
+.me {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(0, 20, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.a1 {
+    background-image: url('./about\ me.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.a1,
+.a2 {
+
+    width: 500px;
+    height: 600px;
+    color: #fff;
+}
+
+.aa2 {
+    border: 2px solid rgb(172, 172, 172);
+    width: 500px;
+    height: 170px;
+    text-align: center;
+
+
+}
+
+.a2 h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+}
+
+.a2 hr {
+    width: 40%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+.aa2 table {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 70%;
+
+
+}
+
+/* section 3*/
+.video {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(0, 20, 22);
+}
+.video h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.video p{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+.v{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* section 4*/
+.graphic  {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(0, 20, 22);
+}
+.graphic h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.graphic p{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.post{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p1 , .p2{
+    width: 400px;
+    height: 600px;
+    
+}
+.p1{
+    background-image: url('./debsoc.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.p2{
+    background-image: url('./debsoc2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* section 5*/
+.webdev {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(0, 20, 22);
+    position: relative;
+}
+.webdev h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.webd{
+    position: absolute;
+    border: 5px solid white;
+    height: 230px;
+    width: 500px;
+    top: 30%;
+    left: 30%;
+    padding: 40px;
+}
+.webd p{
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+
+
+/* contacts */
+.contact {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 20, 22);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.ab {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+span {
+    font-size: 60px;
+}
+
+.bc,
+.cd,
+.de,
+.ef {
+    font-size: 15px;
+
+}
+
+.cd a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.de a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.ef a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.fg a {
+    color: #fff;
+}
+
+/*footer*/
+.foot {
+    background-color: rgb(0, 20, 22);
+    height: 40px;
+    padding-right: 30px;
+}
+
+footer {
+    float: right;
+    color: #fff;
+}
